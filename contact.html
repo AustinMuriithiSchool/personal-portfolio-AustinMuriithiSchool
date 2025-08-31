@@ -20,17 +20,25 @@
     <h1>Contact Me</h1>
     <form id="contact-form" method="post" action="#">
       <label for="name">Name:</label><br />
-      <input type="text" id="name" name="name" required /><br />
+      <input type="text" id="name" name="name" required placeholder="Your name" class="form-field" /><br />
 
       <label for="email">Email:</label><br />
-      <input type="email" id="email" name="email" required /><br />
+      <input type="email" id="email" name="email" required placeholder="Your email" class="form-field" /><br />
 
       <label for="message">Message:</label><br />
-      <textarea id="message" name="message" rows="5" required></textarea><br />
+      <textarea id="message" name="message" rows="5" required placeholder="Your message" class="form-field"></textarea><br />
 
       <button type="submit">Send</button>
     </form>
-    <p>integrate EmailJS, Formspree, or other APIs for the form functionality.</p>
+    <p></p>
+    <footer style="margin-top: 30px; text-align: center;">
+      <hr />
+      <p>Contact: <a href="mailto:austin.muriithi@strathmore.edu">austin.muriithi@strathmore.edu</a></p>
+      <p>
+        <a href="https://twitter.com/yourprofile" target="_blank">Twitter</a> |
+        <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+      </p>
+    </footer>
   </section>
 
 </body>
